@@ -4,5 +4,5 @@
     $message = $_POST["user_message"];
     $headers .= $_POST["user_email"];
     mail($to,$subject,$message,$headers);
-    header('location: https//www.lebloguedecyril.fr');
+    header("Location: https//www.lebloguedecyril.fr");
 ?>
