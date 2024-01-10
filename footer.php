@@ -3,6 +3,13 @@ echo '
         <footer class="footer">
             <h3 class="footer-h3">Contact</h3>
             <form class="footer-form" action="processing.php" method="post">
+
+                <label class="footer-form-label" for="firstName">Prénom</label>
+                <input class="footer-form-input" type="text" id="firstName" name="user_firstName" required autocomplete="off">
+
+                <label class="footer-form-label" for="lastName">Nom</label>
+                <input class="footer-form-input" type="text" id="lastName" name="user_lastName" required autocomplete="off">
+
                 <label class="footer-form-label" for="email">Email</label>
                 <input class="footer-form-input" type="email" id="email" name="user_email" required autocomplete="off">
 
