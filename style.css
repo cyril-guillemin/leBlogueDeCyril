@@ -99,6 +99,7 @@ body {
 .div-section-div {
     display: flex;
     justify-content: flex-start;
+    align-items: first baseline;
     flex-wrap: wrap;
 }
 
@@ -106,6 +107,14 @@ body {
 
 .div-section-div-article {
     margin: 10px;
+}
+
+.div-section-div-article-h3 {
+    background-color: #0066cc;
+    color: white;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 .div-section-div-article-figure {
@@ -168,8 +177,6 @@ body {
     max-width: 650px;
     width: 100%;
     height: min-content;
-    border : 1px solid #000;
-    border-radius: 5px;
     margin: 10px;
 }
 
@@ -179,6 +186,8 @@ body {
     margin: 0px;
     padding: 5px;
     font-weight: bold;
+    border : 1px solid #000;
+    border-radius: 5px;
 }
 
 .div-section-aside-ul-li {

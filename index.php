@@ -27,7 +27,7 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <a class="div-section-div-a" href="moteur_v8_pneumatique_fictif_pour_son_mécanique.php">
+                    <a class="div-section-div-a" href="moteur_v8_pneumatique_fictif_pour_son_mecanique.php">
                         <figure class="div-section-div-a-figure">
                             <img class="div-section-div-a-figure-img" src="v8_pneumatique.webp" alt="Rendu en image" width="1280" height="960">
                             <figcaption class="div-section-div-a-figure-figcaption">
@@ -40,7 +40,7 @@
         </div>'?>
         <?php include 'footer.php';?>
         <?php echo '
-        <script type="text/javascript" src="nav.js"></script>
+        <script src="nav.js"></script>
     </body>
 </html>'
 ?>

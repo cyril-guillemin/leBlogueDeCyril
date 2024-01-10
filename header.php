@@ -20,7 +20,7 @@ echo '
                             <a class="header-nav-div-ul-li-a" href="train_avant_pour_supercar.php">Train avant pour supercar</a>
                         </li>
                         <li class="header-nav-div-ul-li">
-                            <a class="header-nav-div-ul-li-a" href="moteur_v8_pneumatique_fictif_pour_son_mécanique.php">Moteur V8 pneumatique fictif pour son mécanique</a>
+                            <a class="header-nav-div-ul-li-a" href="moteur_v8_pneumatique_fictif_pour_son_mecanique.php">Moteur V8 pneumatique fictif pour son mécanique</a>
                         </li>
                     </ul>
                 </div>

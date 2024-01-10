@@ -5,7 +5,7 @@ echo '
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Le blogue de Cyril</title>
 
-        <meta name="description" content="Mes réalisations orientées sciences et techniques en mécanique, électronique, mathématiques, informatique"/>
+        <meta name="description" content="Mes réalisations orientées sciences et techniques en mécanique, électronique, mathématiques, informatique">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
