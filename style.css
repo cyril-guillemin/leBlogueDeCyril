@@ -143,6 +143,8 @@ body {
         max-width: 650px;
         width: 100%;
         height: auto;
+        border: 1px solid #000;
+        border-radius: 5px;
     }
 }
 
@@ -181,13 +183,9 @@ body {
 }
 
 .div-section-div-aside-p {
-    background-color: #0066cc;
-    color: white;
     margin: 0px;
-    padding: 5px;
     font-weight: bold;
-    border : 1px solid #000;
-    border-radius: 5px;
+    border-bottom : 2px dashed #000;
 }
 
 .div-section-aside-ul-li {
