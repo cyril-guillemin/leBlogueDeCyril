@@ -15,7 +15,9 @@
             $message = stripslashes(trim($_POST["user_message"]));
             $to = "message@lebloguedecyril.fr";
 
-            if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            if(filter_var($email, FILTER_VALIDATE_EMAIL)
+            && ctype_alpha($firstName)
+            && ctype_alpha($lastName)) {
                 if(mail($to, $subject, $message, $email)) {
                     echo '
                     <div class="div">
@@ -49,7 +51,7 @@
                         <h2 class="div-section-h2">Bonjour !</h2>
                         <p class="div-section-p">Merci à l\'attention que vous portez pour mon blogue !!!</p>
                         <p class="div-section-problem_p">
-                            Vous devez entrez un email valide (ne pas oublié l\'arobase et le .com ou .fr ect. , le tout en minuscule).
+                            Vous devez entrez un prénom et nom valide (uniquement lettre minuscule et ou majuscule) et également un email valide (ne pas oublié l\'arobase et le .com ou .fr ect.).
                         </p>
                     </section>
                 </div>';
