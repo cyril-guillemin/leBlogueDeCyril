@@ -15,9 +15,8 @@
             $message = stripslashes(trim($_POST["user_message"]));
             $to = "message@lebloguedecyril.fr";
 
-            if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                $headers .= stripslashes(trim($_POST["user_email"]));
-                if(mail($to, $subject, $message, $headers)) {
+            if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                if(mail($to, $subject, $message, $email)) {
                     echo '
                     <div class="div">
                         <section class="div-section">
@@ -36,7 +35,7 @@
                             <section class="div-section">
                                 <h2 class="div-section-h2">Bonjour ' . $firstName . ' ' . $lastName . ' !</h2>
                                 <p class="div-section-p">Merci à l\'attention que vous portez pour mon blogue !!!</p>
-                                <p class="div-section-div-problem_p">
+                                <p class="div-section-problem_p">
                                     Un problème est survenu, veuillez réessayer plus tard.
                                 </p>
                             </section>
@@ -47,10 +46,10 @@
                 echo '
                 <div class="div">
                     <section class="div-section">
-                        <h2 class="div-section-h2">Bonjour ' . $firstName . ' ' . $lastName . ' !</h2>
+                        <h2 class="div-section-h2">Bonjour !</h2>
                         <p class="div-section-p">Merci à l\'attention que vous portez pour mon blogue !!!</p>
-                        <p class="div-section-div-problem_p">
-                                Vous devez entrez un email valid.
+                        <p class="div-section-problem_p">
+                            Vous devez entrez un email valide (ne pas oublié l\'arobase et le .com ou .fr ect. , le tout en minuscule).
                         </p>
                     </section>
                 </div>';
@@ -61,9 +60,9 @@
             echo '
                 <div class="div">
                     <section class="div-section">
-                        <h2 class="div-section-h2">Bonjour ' . $firstName . ' ' . $lastName . ' !</h2>
+                        <h2 class="div-section-h2">Bonjour !</h2>
                         <p class="div-section-p">Merci à l\'attention que vous portez pour mon blogue !!!</p>
-                        <p class="div-section-div-problem_p">
+                        <p class="div-section-problem_p">
                             Tout les champs de formulaire doivent être renseigner.
                         </p>
                     </section>

@@ -106,32 +106,28 @@ body {
 /* Relatif aux popups après envoi du formulaire */
 
 .div-section-p {
-    font-size: large;
+    font-weight: bold;
     padding: 10px;
 }
 
 .div-section-noProblem_p {
-    max-width: 260px;
-    width: 100%;
     text-align: center;
     border: 1px solid #000;
     border-radius: 5px;
     background-color: #00cc99;
     color: #fff;
-    font-size: x-large;
+    font-weight: bold;
+    font-size: large;
     padding: 20px;
     margin: 10px;
 }
 
 .div-section-problem_p {
-    max-width: 260px;
-    width: 100%;
-    text-align: center;
     border: 1px solid #000;
     border-radius: 5px;
     background-color: #ff3300;
     color: #fff;
-    font-size: x-large;
+    font-weight: bold;
     padding: 20px;
     margin: 10px;
 }
