@@ -30,7 +30,7 @@
                             <li class="div-section-aside-ul-li">V de 90° donc idéal pour couplage avec un ou trois autre v (moteur en mode 2l ou 4l).</li>
                             <li class="div-section-aside-ul-li">Montage de moteur à n v sur le même principe que celui-ci, il suffit d\'ajouter ou d\'enlever un groupe v2 pour obtenir un moteur de n v2.</li>
                             <li class="div-section-aside-ul-li">
-                                Compatible en mode 2v au <a class="div-section-div-aside-ul-li-a" href="train_arriere_pour_supercar.php">train arrière pour supercar</a> qui est équipé d\'un différentiel à double plateau conique.
+                                Compatible en mode 2l au <a class="div-section-div-aside-ul-li-a" href="train_arriere_pour_supercar.php">train arrière pour supercar</a> qui est équipé d\'un différentiel à double plateau conique.
                             </li>
                             <li class="div-section-aside-ul-li">Le but est de venir le motoriser électriquement pour obtenir un son mécanique.</li>
                         </ul>
