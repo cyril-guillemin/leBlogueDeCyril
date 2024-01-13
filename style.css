@@ -150,9 +150,9 @@ body {
     margin: 0px;
 }
 
-@media all and (min-width: 1400px) {
+@media all and (max-width: 1400px) {
     .div-section-div-article-figure-enlarge_img {
-        max-width: 1024px;
+        max-width: 800px;
         width: 100%;
         height: auto;
         border: 1px solid #000;
@@ -161,9 +161,9 @@ body {
     }
 }
 
-@media all and (max-width: 1400px) {
+@media all and (min-width: 1400px) {
     .div-section-div-article-figure-enlarge_img {
-        max-width: 800px;
+        max-width: 1024px;
         width: 100%;
         height: auto;
         border: 1px solid #000;
