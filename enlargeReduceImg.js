@@ -11,8 +11,6 @@ function enlargeReduceImg() {
     let imgClass2 = img2.className;
     if(imgClass2 == "div-section-div-article-figure-noDisplay_img") {
         img2.className = "div-section-div-article-figure-enlarge_img";
-        img2.width = "1024";
-        img2.height = "768"; 
     }
     else {
         img2.className = "div-section-div-article-figure-noDisplay_img";
