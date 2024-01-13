@@ -1,11 +1,13 @@
-<?php echo '
+<?php 
+header("Cache-Control: max-age=31536000");
+echo '
 <!doctype html>
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="preload" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_1.webp" type="image/webp">
-        <link rel="preload" fetchpriority="high" as="image" href="img/train_avant_pour_supercar_1.webp" type="image/webp">
-        <link rel="preload" fetchpriority="high" as="image" href="img/v8_pneumatique_1.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_1.webp" type="image/webp" crossorigin>
+        <link rel="preload" fetchpriority="high" as="image" href="img/train_avant_pour_supercar_1.webp" type="image/webp" crossorigin>
+        <link rel="preload" fetchpriority="high" as="image" href="img/v8_pneumatique_1.webp" type="image/webp" crossorigin>
     </head>
     <body>';?>
         <?php include 'header.php';?>
@@ -16,7 +18,7 @@
                 <div class="div-section-div">
                     <a class="div-section-div-a" href="train_arriere_pour_supercar.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="low" src="img/train_arriere_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/train_arriere_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480" srcset="img/train_arriere_pour_supercar_2.webp 270w, img/train_arriere_pour_supercar_2.webp 640w" sizes="100vw">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Train arrière pour supercar</p>
                             </figcaption>
@@ -24,7 +26,7 @@
                     </a>
                     <a class="div-section-div-a" href="train_avant_pour_supercar.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="low" src="img/train_avant_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/train_avant_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480" srcset="img/train_avant_pour_supercar_2.webp 270w, img/train_avant_pour_supercar_2.webp 640w" sizes="100vw">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Train avant pour supercar</p>
                             </figcaption>
@@ -32,7 +34,7 @@
                     </a>
                     <a class="div-section-div-a" href="moteur_v8_pneumatique_fictif_pour_son_mecanique.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="low" src="img/v8_pneumatique_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/v8_pneumatique_1.webp" alt="Rendu en image" width="640" height="480" srcset="img/v8_pneumatique_2.webp 270w, img/v8_pneumatique_2.webp 640w" sizes="100vw">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Moteur v8 pneumatique fictif pour son mécanique</p>
                             </figcaption>

@@ -2,10 +2,11 @@
 echo '
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="Cache-control" content="public">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Le blogue de Cyril</title>
-
         <meta name="description" content="Mes réalisations orientées sciences et techniques en mécanique, électronique, mathématiques, informatique">
+
+        <title>Le blogue de Cyril</title>
 
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">

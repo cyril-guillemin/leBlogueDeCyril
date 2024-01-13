@@ -1,10 +1,12 @@
-<?php echo '
+<?php
+header("Cache-Control: max-age=31536000");
+echo '
 <!doctype html>
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="preload" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_2.webp" type="image/webp">
-        <link rel="preload" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_3.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_2.webp" type="image/webp" crossorigin>
+        <link rel="preload" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_3.webp" type="image/webp" crossorigin>
     </head>
     <body>';?>
         <?php include 'header.php';?>
@@ -16,8 +18,8 @@
                     <article class="div-section-div-article">
                         <h3 class="div-section-div-article-h3">Rendu en image</h3>
                         <figure class="div-section-div-article-figure">
-                            <img class="div-section-div-article-figure-img" fetchpriority="low" src="img/train_arriere_pour_supercar_2.webp" alt="Rendu en image" width="800" height="600" onclick="enlargeReduceImg()" id="img">
-                            <img class="div-section-div-article-figure-noDisplay_img" fetchpriority="low" src="img/train_arriere_pour_supercar_3.webp" alt="Rendu en image" width="1024" height="768" onclick="enlargeReduceImg()" id="enlargeImg">
+                            <img class="div-section-div-article-figure-img" fetchpriority="high" src="img/train_arriere_pour_supercar_2.webp" alt="Rendu en image" width="800" height="600" srcset="img/train_arriere_pour_supercar_2.webp 270w, img/train_arriere_pour_supercar_2.webp 800w" sizes="100vw" onclick="enlargeReduceImg()" id="img">
+                            <img class="div-section-div-article-figure-noDisplay_img" fetchpriority="high" src="img/train_arriere_pour_supercar_3.webp" alt="Rendu en image" width="1024" height="768" srcset="img/train_arriere_pour_supercar_2.webp 1024w" sizes="100vw" onclick="enlargeReduceImg()" id="enlargeImg">
                         </figure>
                     </article>
                     <aside class="div-section-div-aside">

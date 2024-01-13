@@ -13,3 +13,10 @@ AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access 1 year"
+</IfModule>
+<IfModule mod_headers.c>
+Header set Cache-Control "max-age=31536000, public"
+</IfModule>
