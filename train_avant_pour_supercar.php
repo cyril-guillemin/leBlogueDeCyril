@@ -25,7 +25,7 @@
                                 Adapter niveau dimension au <a class="div-section-div-aside-ul-li-a" href="train_arriere_pour_supercar.php">train arrière pour supercar.</a>
                             </li>
                             <li class="div-section-aside-ul-li">Direction à double pignon.</li>
-                            <li class="div-section-aside-ul-li">Frains à disques avec étrier fictif.</li>
+                            <li class="div-section-aside-ul-li">Freins à disques avec étrier fictif.</li>
                             <li class="div-section-aside-ul-li">Double suspension courte à plat par roue.</li>
                             <li class="div-section-aside-ul-li">Architecture solide (montage en H).</li>
                             <li class="div-section-aside-ul-li">Compatible avec les roues du set lego technic 42143 (Ferrari Daytona SP3).</li>
