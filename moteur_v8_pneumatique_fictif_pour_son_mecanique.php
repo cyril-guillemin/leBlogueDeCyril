@@ -1,10 +1,12 @@
 <?php echo '
 <!doctype html>
-<html lang="fr">'
-?>
-    <?php include 'head.php';?>
-    <?php echo '
-    <body>'?>
+<html lang="fr">';?>
+    <?php include 'head.php';
+    echo '
+        <link rel="preload" fetchpriority="high" as="image" href="img/v8_pneumatique_2.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/v8_pneumatique_3.webp" type="image/webp">
+    </head>
+    <body>';?>
         <?php include 'header.php';?>
         <?php echo '
         <div class="div">
@@ -31,7 +33,7 @@
                     </aside>
                 </div>
             </section>
-        </div>'?>
+        </div>';?>
         <?php include 'footer.php';?>
         <?php echo '
         <script>
@@ -66,5 +68,4 @@
             }
         </script>
     </body>
-</html>'
-?>
+</html>';?>
