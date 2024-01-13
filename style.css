@@ -150,6 +150,16 @@ body {
     margin: 0px;
 }
 
+.div-section-div-article-figure-img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 @media all and (max-width: 1400px) {
     .div-section-div-article-figure-enlarge_img {
         max-width: 800px;
