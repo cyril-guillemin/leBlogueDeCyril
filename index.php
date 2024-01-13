@@ -13,7 +13,7 @@
                 <div class="div-section-div">
                     <a class="div-section-div-a" href="train_arriere_pour_supercar.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" src="img/train_arriere_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="low" src="img/train_arriere_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Train arrière pour supercar</p>
                             </figcaption>
@@ -21,7 +21,7 @@
                     </a>
                     <a class="div-section-div-a" href="train_avant_pour_supercar.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" src="img/train_avant_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="low" src="img/train_avant_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Train avant pour supercar</p>
                             </figcaption>
@@ -29,7 +29,7 @@
                     </a>
                     <a class="div-section-div-a" href="moteur_v8_pneumatique_fictif_pour_son_mecanique.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" src="img/v8_pneumatique_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="low" src="img/v8_pneumatique_1.webp" alt="Rendu en image" width="640" height="480">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Moteur v8 pneumatique fictif pour son mécanique</p>
                             </figcaption>
@@ -40,7 +40,18 @@
         </div>'?>
         <?php include 'footer.php';?>
         <?php echo '
-        <script src="nav.js"></script>
+        <script>
+            function displayNav() {
+                let nav = document.getElementById("nav");
+                let navClass = nav.className;
+                if(navClass == "header-no_nav") {
+                    nav.className = "header-nav";
+                }
+                else {
+                    nav.className = "header-no_nav";
+                }
+            }
+        </script>
     </body>
 </html>'
 ?>

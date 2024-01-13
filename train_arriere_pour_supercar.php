@@ -14,8 +14,8 @@
                     <article class="div-section-div-article">
                         <h3 class="div-section-div-article-h3">Rendu en image</h3>
                         <figure class="div-section-div-article-figure">
-                            <img class="div-section-div-article-figure-img" src="img/train_arriere_pour_supercar_2.webp" alt="Rendu en image" width="800" height="600" onclick="enlargeReduceImg()" id="img">
-                            <img class="div-section-div-article-figure-noDisplay_img" src="img/train_arriere_pour_supercar_3.webp" alt="Rendu en image" width="1024" height="768" onclick="enlargeReduceImg()" id="enlargeImg">
+                            <img class="div-section-div-article-figure-img" fetchpriority="low" src="img/train_arriere_pour_supercar_2.webp" alt="Rendu en image" width="800" height="600" onclick="enlargeReduceImg()" id="img">
+                            <img class="div-section-div-article-figure-noDisplay_img" fetchpriority="low" src="img/train_arriere_pour_supercar_3.webp" alt="Rendu en image" width="1024" height="768" onclick="enlargeReduceImg()" id="enlargeImg">
                         </figure>
                     </article>
                     <aside class="div-section-div-aside">
@@ -36,8 +36,37 @@
         </div>'?>
         <?php include 'footer.php';?>
         <?php echo '
-        <script src="nav.js"></script>
-        <script src="enlargeReduceImg.js"></script>
+        <script>
+            function displayNav() {
+                let nav = document.getElementById("nav");
+                let navClass = nav.className;
+                if(navClass == "header-no_nav") {
+                    nav.className = "header-nav";
+                }
+                else {
+                    nav.className = "header-no_nav";
+                }
+            }
+            function enlargeReduceImg() {
+                let img1 = document.getElementById("img");
+                let imgClass1 = img1.className;
+                if(imgClass1 == "div-section-div-article-figure-img") {
+                    img1.className = "div-section-div-article-figure-noDisplay_img";
+                }
+                else {
+                    img1.className = "div-section-div-article-figure-img";
+                }
+                let img2 = document.getElementById("enlargeImg");
+                let imgClass2 = img2.className;
+                if(imgClass2 == "div-section-div-article-figure-noDisplay_img") {
+                    img2.className = "div-section-div-article-figure-enlarge_img";
+                }
+                else {
+                    img2.className = "div-section-div-article-figure-noDisplay_img";
+                }
+            
+            }
+        </script>
     </body>
 </html>'
 ?>
