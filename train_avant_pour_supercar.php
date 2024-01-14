@@ -1,12 +1,12 @@
 <?php
-header("Cache-Control: max-age=31536000");
+header("Cache-Control: max-age=31536000, public");
 echo '
 <!doctype html>
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="preload" fetchpriority="high" as="image" href="img/train_avant_pour_supercar_2.webp" type="image/webp" crossorigin>
-        <link rel="preload" fetchpriority="high" as="image" href="img/train_avant_pour_supercar_3.webp" type="image/webp" crossorigin>    
+        <link rel="prefetch" fetchpriority="high" as="image" href="img/train_avant_pour_supercar_2.webp" type="image/webp">
+        <link rel="prefetch" fetchpriority="high" as="image" href="img/train_avant_pour_supercar_3.webp" type="image/webp">    
     </head>
     <body>';?>
         <?php include 'header.php';?>
@@ -70,6 +70,8 @@ echo '
                 }
             
             }
+            // window on load event
+            window.onload = console.log("La page c\'est correctement chargée");
         </script>
     </body>
 </html>';?>
