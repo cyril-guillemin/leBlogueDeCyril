@@ -27,7 +27,7 @@ echo '
                         <ul class="div-section-div-aside-ul">
                             <li class="div-section-aside-ul-li">Différentiel "maison" à double plateau conique.</li>
                             <li class="div-section-aside-ul-li">
-                                Idéale pour y intégrer un moteur en mode 2l (<a class="div-section-div-aside-ul-li-a" href="moteur_v8_pneumatique_fictif_pour_son_mecanique.php">voir moteur v8 pneumatique fictif pour son mécanique</a>).</li>
+                                Idéale pour y intégrer un moteur en mode 2l (<a class="div-section-div-aside-ul-li-a" href="moteur_v8_pneumatique.php">voir moteur v8 pneumatique</a>).</li>
                             <li class="div-section-aside-ul-li">Freins à disques avec étrier fictif.</li>
                             <li class="div-section-aside-ul-li">Le <a class="div-section-div-aside-ul-li-a" href="train_avant_pour_supercar.php">train avant pour supercar</a> est compatible niveau dimension.</li>
                             <li class="div-section-aside-ul-li">Double suspension courte à plat par roue.</li>

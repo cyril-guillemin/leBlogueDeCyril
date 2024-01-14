@@ -154,6 +154,7 @@ body {
     max-width: 700px;
     width: 100%;
     height: auto;
+    aspect-ratio: auto 800 / 600;
     border: 1px solid #000;
     border-radius: 5px;
     cursor: pointer;
@@ -165,6 +166,7 @@ body {
         max-width: 700px;
         width: 100%;
         height: auto;
+        aspect-ratio: auto 800 / 600;
         border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
@@ -176,6 +178,7 @@ body {
         max-width: 1024px;
         width: 100%;
         height: auto;
+        aspect-ratio: auto 1024 / 768;
         border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
@@ -248,6 +251,7 @@ body {
     height: auto;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    margin: auto;
 }
 
 .div-section-div-a-figure-figcaption {
