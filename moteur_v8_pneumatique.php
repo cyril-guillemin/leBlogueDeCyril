@@ -68,7 +68,7 @@ echo '
                 }
             }
             // window on load event
-            window.onload = console.log("La page c\'est correctement chargée");
+            window.onload = console.log("La page c\'est correctement chargée !");
         </script>
     </body>
 </html>';?>
