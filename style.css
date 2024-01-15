@@ -154,19 +154,20 @@ body {
     max-width: 700px;
     width: 100%;
     height: auto;
-    aspect-ratio: auto 800 / 600;
     border: 1px solid #000;
     border-radius: 5px;
     cursor: pointer;
 }
 
+.div-section-div-article-figure-noDisplay_img {
+    display: none;
+}
 
 @media all and (max-width: 1400px) {
     .div-section-div-article-figure-enlarge_img {
         max-width: 700px;
         width: 100%;
         height: auto;
-        aspect-ratio: auto 800 / 600;
         border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
@@ -178,15 +179,10 @@ body {
         max-width: 1024px;
         width: 100%;
         height: auto;
-        aspect-ratio: auto 1024 / 768;
         border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
     }
-}
-
-.div-section-div-article-figure-noDisplay_img {
-    display: none;
 }
 
 .div-section-div-aside {

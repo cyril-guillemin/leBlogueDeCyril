@@ -18,8 +18,8 @@ echo '
                     <article class="div-section-div-article">
                         <h3 class="div-section-div-article-h3">Rendu en image</h3>
                         <figure class="div-section-div-article-figure">
-                            <img class="div-section-div-article-figure-img" fetchpriority="high" src="img/v8_pneumatique_2.webp" alt="Rendu en image" width="800" height="600" srcset="img/v8_pneumatique_2.webp 270w, img/v8_pneumatique_2.webp 800w" sizes="100vw" onclick="enlargeReduceImg()" id="img">
-                            <img class="div-section-div-article-figure-noDisplay_img" fetchpriority="high" src="img/v8_pneumatique_3.webp" alt="Rendu en image" width="1024" height="768" srcset="img/v8_pneumatique_2.webp 1024w" onclick="enlargeReduceImg()" sizes="100vw" id="enlargeImg">
+                            <img class="div-section-div-article-figure-img" fetchpriority="high" src="img/v8_pneumatique_2.webp" alt="Rendu en image" width="800" height="600" onclick="enlargeReduceImg()" id="img">
+                            <img class="div-section-div-article-figure-noDisplay_img" fetchpriority="high" src="img/v8_pneumatique_3.webp" alt="Rendu en image" width="1024" height="768" onclick="enlargeReduceImg()" id="enlargeImg">
                         </figure>
                     </article>
                     <aside class="div-section-div-aside">
