@@ -12,13 +12,14 @@
             $lastName = stripslashes(trim($_POST["user_lastName"]));
             $email = stripslashes(trim($_POST["user_email"]));
             $subject = stripslashes(trim($_POST["user_subject"]));
-            $message = stripslashes(trim($_POST["user_message"]));
+            $message = $email . " (" . $firstName . " " . $lastName .") : ";
+            $message .= stripslashes(trim($_POST["user_message"]));
             $to = "message@lebloguedecyril.fr";
 
             if(filter_var($email, FILTER_VALIDATE_EMAIL)
             && ctype_alpha($firstName)
             && ctype_alpha($lastName)) {
-                if(mail($to, $subject, $message, $email)) {
+                if(mail($to, $subject, $message, '')) {
                     echo '
                     <div class="div">
                         <section class="div-section">
