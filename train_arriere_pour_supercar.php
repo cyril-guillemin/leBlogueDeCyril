@@ -5,8 +5,8 @@ echo '
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_2.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_3.webp" type="image/webp">
+        <link rel="prefetch" fetchpriority="high" as="image" href="img/trainArrierePourSupercar_mediumComp.webp" type="image/webp">
+        <link rel="prefetch" fetchpriority="high" as="image" href="img/train_ArrierePourSupercar_largeComp.webp" type="image/webp">
     </head>
     <body>';?>
         <?php include 'header.php';?>
@@ -18,8 +18,8 @@ echo '
                     <article class="div-section-div-article">
                         <h3 class="div-section-div-article-h3">Rendu en image</h3>
                         <figure class="div-section-div-article-figure">
-                            <img class="div-section-div-article-figure-img" fetchpriority="high" src="img/train_arriere_pour_supercar_2.webp" alt="Rendu en image" width="800" height="600" onclick="enlargeReduceImg()" id="img">
-                            <img class="div-section-div-article-figure-noDisplay_img" fetchpriority="high" src="img/train_arriere_pour_supercar_3.webp" alt="Rendu en image" width="1024" height="768" onclick="enlargeReduceImg()" id="enlargeImg">
+                            <img class="div-section-div-article-figure-img" fetchpriority="high" src="img/trainArrierePourSupercar_mediumComp.webp" alt="Rendu en image" width="300" height="300" onclick="enlargeReduceImg()" id="img">
+                            <img class="div-section-div-article-figure-noDisplay_img" fetchpriority="high" src="img/train_ArrierePourSupercar_largeComp.webp" alt="Rendu en image" width="1024" height="1024" onclick="enlargeReduceImg()" id="enlargeImg">
                         </figure>
                     </article>
                     <aside class="div-section-div-aside">

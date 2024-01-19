@@ -5,9 +5,9 @@ echo '
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/train_arriere_pour_supercar_1.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/train_avant_pour_supercar_1.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/v8_pneumatique_1.webp" type="image/webp">
+        <link rel="prefetch" fetchpriority="high" as="image" href="img/trainArrierePourSupercar_mediumComp.webp" type="image/webp">
+        <link rel="prefetch" fetchpriority="high" as="image" href="img/trainAvantPourSupercar_mediumComp.webp" type="image/webp">
+        <link rel="prefetch" fetchpriority="high" as="image" href="img/v8pneumatique_mediumComp.webp" type="image/webp">
     </head>
     <body>';?>
         <?php include 'header.php';?>
@@ -18,7 +18,7 @@ echo '
                 <div class="div-section-div">
                     <a class="div-section-div-a" href="train_arriere_pour_supercar.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/train_arriere_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/trainArrierePourSupercar_mediumComp.webp" alt="Rendu en image" width="300" height="300">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Train arrière pour supercar</p>
                             </figcaption>
@@ -26,7 +26,7 @@ echo '
                     </a>
                     <a class="div-section-div-a" href="train_avant_pour_supercar.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/train_avant_pour_supercar_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/trainAvantPourSupercar_mediumComp.webp" alt="Rendu en image" width="300" height="300">
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Train avant pour supercar</p>
                             </figcaption>
@@ -34,7 +34,7 @@ echo '
                     </a>
                     <a class="div-section-div-a" href="moteur_v8_pneumatique.php">
                         <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/v8_pneumatique_1.webp" alt="Rendu en image" width="640" height="480">
+                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/v8pneumatique_mediumComp.webp" alt="Rendu en image" width="300" height="300">
                             </picture>
                             <figcaption class="div-section-div-a-figure-figcaption">
                                 <p class="div-section-div-a-figure-figcaption-p">Moteur v8 pneumatique</p>
