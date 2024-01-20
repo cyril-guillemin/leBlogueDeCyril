@@ -98,9 +98,18 @@ body {
 
 .div-section-div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: first baseline;
     flex-wrap: wrap;
+}
+
+@media all and (min-width: 430px) {
+    .div-section-div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: first baseline;
+        flex-wrap: wrap;
+    }
 }
 
 /* Relatif aux popups après envoi du formulaire */
@@ -149,13 +158,14 @@ body {
 .div-section-div-article-figure {
     margin: 0px;
     background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
 }
 
 .div-section-div-article-figure-img_1 {
     max-width: 200px;
     width: 100%;
     height: auto;
-    border: 1px solid #000;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -169,7 +179,6 @@ body {
         max-width: 200px;
         width: 100%;
         height: auto;
-        border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
     }
@@ -180,7 +189,6 @@ body {
         max-width: 1024px;
         width: 100%;
         height: auto;
-        border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
     }
@@ -190,7 +198,6 @@ body {
     max-width: 200px;
     width: 100%;
     height: auto;
-    border: 1px solid #000;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -204,7 +211,6 @@ body {
         max-width: 200px;
         width: 100%;
         height: auto;
-        border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
     }
@@ -215,7 +221,6 @@ body {
         max-width: 1024px;
         width: 100%;
         height: auto;
-        border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
     }
@@ -225,7 +230,6 @@ body {
     max-width: 200px;
     width: 100%;
     height: auto;
-    border: 1px solid #000;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -239,7 +243,6 @@ body {
         max-width: 200px;
         width: 100%;
         height: auto;
-        border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
     }
@@ -250,7 +253,6 @@ body {
         max-width: 1024px;
         width: 100%;
         height: auto;
-        border: 1px solid #000;
         border-radius: 5px;
         cursor: pointer;
     }
