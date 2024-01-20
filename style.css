@@ -70,11 +70,11 @@ body {
 }
 
 .div:nth-child(even) {
-    background-color: #F8F8FF;
+    background-color: #e6e6ff;
 }
 
 .div:nth-child(odd) {
-    background-color: #F5F5F5;
+    background-color: #e6ffff;
 }
 
 .div-section {
@@ -148,9 +148,10 @@ body {
 
 .div-section-div-article-figure {
     margin: 0px;
+    background-color: #fff;
 }
 
-.div-section-div-article-figure-img {
+.div-section-div-article-figure-img_1 {
     max-width: 200px;
     width: 100%;
     height: auto;
@@ -159,12 +160,12 @@ body {
     cursor: pointer;
 }
 
-.div-section-div-article-figure-noDisplay_img {
+.div-section-div-article-figure-noDisplay_img_1 {
     display: none;
 }
 
 @media all and (max-width: 1400px) {
-    .div-section-div-article-figure-enlarge_img {
+    .div-section-div-article-figure-enlarge_img_1 {
         max-width: 200px;
         width: 100%;
         height: auto;
@@ -175,7 +176,77 @@ body {
 }
 
 @media all and (min-width: 1400px) {
-    .div-section-div-article-figure-enlarge_img {
+    .div-section-div-article-figure-enlarge_img_1 {
+        max-width: 1024px;
+        width: 100%;
+        height: auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.div-section-div-article-figure-img_2 {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div-section-div-article-figure-noDisplay_img_2 {
+    display: none;
+}
+
+@media all and (max-width: 1400px) {
+    .div-section-div-article-figure-enlarge_img_2 {
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+@media all and (min-width: 1400px) {
+    .div-section-div-article-figure-enlarge_img_2 {
+        max-width: 1024px;
+        width: 100%;
+        height: auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.div-section-div-article-figure-img_3 {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div-section-div-article-figure-noDisplay_img_3 {
+    display: none;
+}
+
+@media all and (max-width: 1400px) {
+    .div-section-div-article-figure-enlarge_img_3 {
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        border: 1px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+@media all and (min-width: 1400px) {
+    .div-section-div-article-figure-enlarge_img_3 {
         max-width: 1024px;
         width: 100%;
         height: auto;
