@@ -77,6 +77,33 @@ body {
     background-color: #e6ffff;
 }
 
+.div-p {
+    background-color: #000;
+    color: #66ff33;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.div-p-span {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .div-section {
     max-width: 1400px;
     margin: auto;

@@ -14,6 +14,7 @@ echo '
     </head>
     <body>';?>
         <?php include 'header.php';?>
+        <?php include 'message.php';?>
         <?php echo '
         <div class="div">
             <section class="div-section">
@@ -33,7 +34,7 @@ echo '
                             <li class="div-section-aside-ul-li">S\'adapte au type de problème considéré en ce sens qu\'on va se baser sur un algorithme le plus efficace possible quant à la résolution d\'un système linaire matricielle.</li>
                             <li class="div-section-aside-ul-li">A priori même niveaux de performance que la méthode de RK1 (Runge - Kutta ordre 1) : temps d\'éxecution et précision de calcul comparable. J\'ai réaliser des comparaisons entre ces deux techniques en langage python sur un même problème de départ pour arriver à ces conclusions.</li>
                             <li class="div-section-aside-ul-li">Mais comme plus facilement programmable que RK1 notement en Fortran qui est un langage optimiser pour le calcul, il y a un vrai intérêt par rapport au coût de précision de calcul et temps d\'éxecution.</li>
-                            <li class="div-section-aside-ul-li">Le fâite que cette technique est adaptable, on peux aussi choisir des algorithmes de résolution de système matricielle linéaire mois ou plus précis en calcul pour un temps d\'éxecution plus cours ou plus long respectivement.</li>
+                            <li class="div-section-aside-ul-li">Le fait que cette technique est adaptable, on peux aussi choisir des algorithmes de résolution de système matricielle linéaire mois ou plus précis en calcul pour un temps d\'éxecution plus cours ou plus long respectivement.</li>
                         </ul>
                     </aside>
                 </div>
@@ -57,7 +58,7 @@ echo '
                             <li class="div-section-aside-ul-li">S\'adapte au type de problème considéré en ce sens qu\'on va se baser sur un algorithme le plus efficace possible quant à la résolution d\'un système linaire matricielle.</li>
                             <li class="div-section-aside-ul-li">A priori même niveaux de performance que la méthode de RK2 (Runge - Kutta ordre 2) : temps d\'éxecution et précision de calcul comparable. J\'ai réaliser des comparaisons entre ces deux techniques en langage python sur un même problème de départ pour arriver à ces conclusions.</li>
                             <li class="div-section-aside-ul-li">Mais comme plus facilement programmable que RK2 notement en Fortran qui est un langage optimiser pour le calcul, il y a un vrai intérêt par rapport au coût de précision de calcul et temps d\'éxecution.</li>
-                            <li class="div-section-aside-ul-li">Le fâite que cette technique est adaptable, on peux aussi choisir des algorithmes de résolution de système matricielle linéaire mois ou plus précis en calcul pour un temps d\'éxecution plus cours ou plus long respectivement.</li>
+                            <li class="div-section-aside-ul-li">Le fait que cette technique est adaptable, on peux aussi choisir des algorithmes de résolution de système matricielle linéaire mois ou plus précis en calcul pour un temps d\'éxecution plus cours ou plus long respectivement.</li>
                             <li class="div-section-aside-ul-li">Beaucoup plus précis que la première technique.</li>
                         </ul>
                     </aside>

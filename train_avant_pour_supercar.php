@@ -12,6 +12,7 @@ echo '
     </head>
     <body>';?>
         <?php include 'header.php';?>
+        <?php include 'message.php';?>
         <?php echo '
         <div class="div">
             <section class="div-section">
