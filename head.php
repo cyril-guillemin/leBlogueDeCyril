@@ -2,7 +2,6 @@
 echo '
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="Cache-control" content="public">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Mes réalisations orientées mécanique (briques techniques), électronique (Arduino, Raspberry Pi), mathématiques (techniques numériques), informatique (programmation informatique)">
 

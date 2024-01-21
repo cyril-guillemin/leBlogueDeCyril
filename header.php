@@ -24,6 +24,16 @@ echo '
                         </li>
                     </ul>
                 </div>
+                <div class="header-nav-div">
+                    <p class="header-nav-div-p">Mathématiques : mes travaux de recherches et cours</p>
+                    <ul class="header-nav-div-ul">
+                        <li class="header-nav-div-ul-li">
+                            <a class="header-nav-div-ul-li-a" href="techniques_de_resolution_d_edo.php">Mes techniques de résolution numérique de système d\'EDO</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>'
 ?>
+
+

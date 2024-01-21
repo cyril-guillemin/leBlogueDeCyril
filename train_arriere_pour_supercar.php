@@ -5,12 +5,12 @@ echo '
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/trainArrierePourSupercar_mediumComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/trainArrierePourSupercar_largeComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/trainArriere2l6_mediumComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/trainArriere2l6_largeComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/chassiComplet_mediumComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/chassiComplet_largeComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/trainArrierePourSupercar_mediumComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/trainArrierePourSupercar_largeComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/trainArriere2l6_mediumComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/trainArriere2l6_largeComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/chassiComplet_mediumComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/chassiComplet_largeComp.webp" type="image/webp">
     </head>
     <body>';?>
         <?php include 'header.php';?>

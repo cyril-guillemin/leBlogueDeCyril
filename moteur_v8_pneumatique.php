@@ -5,10 +5,10 @@ echo '
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/v8pneumatique_mediumComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/v8pneumatique_largeComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/2l6_mediumComp.webp" type="image/webp">
-        <link rel="prefetch" fetchpriority="high" as="image" href="img/2l6_largeComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/v8pneumatique_mediumComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/v8pneumatique_largeComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/2l6_mediumComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="img/2l6_largeComp.webp" type="image/webp">
     </head>
     <body>';?>
         <?php include 'header.php';?>
