@@ -32,6 +32,14 @@ echo '
                         </li>
                     </ul>
                 </div>
+                <div class="header-nav-div">
+                    <p class="header-nav-div-p">Schématiques : des schémas traitants de disciplines orientés sciences et techniques</p>
+                    <ul class="header-nav-div-ul">
+                        <li class="header-nav-div-ul-li">
+                            <a class="header-nav-div-ul-li-a" href="le_cerveau_mecanique.php">Le cerveau mécanique</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>'
 ?>
