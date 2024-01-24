@@ -64,27 +64,27 @@ echo '
                     </aside>
                 </div>
             </section>
-            </div>
-            <div class="div">
-                <section class="div-section">
-                    <h2 class="div-section-h2">Formulation générale des deux techniques</h2>
-                    <div class="div-section-div">
-                        <article class="div-section-div-article">
-                            <h3 class="div-section-div-article-h3">Rendu en image</h3>
-                            <figure class="div-section-div-article-figure">
-                                <img class="div-section-div-article-figure-img_3" fetchpriority="high" src="img/formulePrincipale_mediumComp.webp" alt="Rendu en image" width="300" height="300" onclick="enlargeReduceImg_3()" id="img_3">
-                                <img class="div-section-div-article-figure-noDisplay_img_3" fetchpriority="high" src="img/formulePrincipale_largeComp.webp" alt="Rendu en image" width="1024" height="1024" onclick="enlargeReduceImg_3()" id="enlargeImg_3">
-                            </figure>
-                        </article>
-                        <aside class="div-section-div-aside">
-                            <p class="div-section-div-aside-p">Description</p>
-                            <ul class="div-section-div-aside-ul">
-                                <li class="div-section-aside-ul-li">Ces deux techniques peuvent s\'écrire de manière générale de la forme alpha khi = bêta.</li>
-                                <li class="div-section-aside-ul-li">En effet, l\'idée commune à ces deux techniques étant de transformer le système d\'équation différentielle de départ en un système linaire matricielle.</li>
-                            </ul>
-                        </aside>
-                    </div>
-                </section>
+        </div>
+        <div class="div">
+            <section class="div-section">
+                <h2 class="div-section-h2">Formulation générale des deux techniques</h2>
+                <div class="div-section-div">
+                    <article class="div-section-div-article">
+                        <h3 class="div-section-div-article-h3">Rendu en image</h3>
+                        <figure class="div-section-div-article-figure">
+                            <img class="div-section-div-article-figure-img_3" fetchpriority="high" src="img/formulePrincipale_mediumComp.webp" alt="Rendu en image" width="300" height="300" onclick="enlargeReduceImg_3()" id="img_3">
+                            <img class="div-section-div-article-figure-noDisplay_img_3" fetchpriority="high" src="img/formulePrincipale_largeComp.webp" alt="Rendu en image" width="1024" height="1024" onclick="enlargeReduceImg_3()" id="enlargeImg_3">
+                        </figure>
+                    </article>
+                    <aside class="div-section-div-aside">
+                        <p class="div-section-div-aside-p">Description</p>
+                        <ul class="div-section-div-aside-ul">
+                            <li class="div-section-aside-ul-li">Ces deux techniques peuvent s\'écrire de manière générale de la forme alpha khi = bêta.</li>
+                            <li class="div-section-aside-ul-li">En effet, l\'idée commune à ces deux techniques étant de transformer le système d\'équation différentielle de départ en un système linaire matricielle.</li>
+                        </ul>
+                    </aside>
+                </div>
+            </section>
         </div>';?>
         <?php include 'footer.php';?>
         <?php echo '

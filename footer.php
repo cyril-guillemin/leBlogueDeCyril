@@ -24,5 +24,6 @@ echo '
                     </svg>
                 </a>
             </div>
+            <a class="footer-a" href="qui_suis_je.php">Qui suis-je ?</a>
         </footer>'
 ?>

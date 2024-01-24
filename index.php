@@ -59,21 +59,21 @@ echo '
                     </a>
                 </div>
             </section>
-            </div>
-            <div class="div">
-                <section class="div-section">
-                    <h2 class="div-section-h2">Schématiques : des schémas traitants de disciplines orientés sciences et techniques</h2>
-                    <div class="div-section-div">
-                        <a class="div-section-div-a" href="le_cerveau_mecanique.php">
-                            <figure class="div-section-div-a-figure">
-                                <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/schemaDuCerveauMecanique_mediumComp.webp" alt="Rendu en image" width="300" height="300">
-                                <figcaption class="div-section-div-a-figure-figcaption">
-                                    <p class="div-section-div-a-figure-figcaption-p">Le cerveau mécanique</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                </section>
+        </div>
+        <div class="div">
+            <section class="div-section">
+                <h2 class="div-section-h2">Schématiques : des schémas traitants de disciplines orientés sciences et techniques</h2>
+                <div class="div-section-div">
+                    <a class="div-section-div-a" href="le_cerveau_mecanique.php">
+                        <figure class="div-section-div-a-figure">
+                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/schemaDuCerveauMecanique_mediumComp.webp" alt="Rendu en image" width="300" height="300">
+                            <figcaption class="div-section-div-a-figure-figcaption">
+                                <p class="div-section-div-a-figure-figcaption-p">Le cerveau mécanique</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </section>
         </div>';?>
         <?php include 'footer.php';?>
         <?php echo '

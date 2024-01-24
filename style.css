@@ -443,3 +443,16 @@ body {
 .footer-div-a:hover {
     color: #0066cc;
 }
+
+.footer-a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.footer-a:hover {
+    text-decoration: underline;
+}
