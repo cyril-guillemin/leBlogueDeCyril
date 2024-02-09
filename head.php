@@ -3,9 +3,9 @@ echo '
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Mes réalisations orientées mécanique (briques techniques), électronique (Arduino, Raspberry Pi), mathématiques (techniques numériques), informatique (programmation informatique)">
+        <meta name="description" content="Des schémas traitant d\'analyse numérique.">
 
-        <title>Le blogue de Cyril, ma passion pour les sciences et techniques</title>
+        <title>Le blogue de Cyril, des schémas traitant d\'analyse numérique</title>
 
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">

@@ -5,90 +5,27 @@ echo '
 <html lang="fr">';?>
     <?php include 'head.php';
     echo '
-        <link rel="preload" fetchpriority="high" as="image" href="img/trainArrierePourSupercar_mediumComp.webp" type="image/webp">
-        <link rel="preload" fetchpriority="high" as="image" href="img/trainAvantPourSupercar_mediumComp.webp" type="image/webp">
-        <link rel="preload" fetchpriority="high" as="image" href="img/v8pneumatique_mediumComp.webp" type="image/webp">
-        <link rel="preload" fetchpriority="high" as="image" href="img/formulePrincipale_mediumComp.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="#" type="image/webp">
     </head>
     <body>';?>
         <?php include 'header.php';?>
-        <?php include 'message.php';?>
         <?php echo '
         <div class="div">
             <section class="div-section">
-                <h2 class="div-section-h2">Mécanique : Dernières réalisations en brique de construction technique</h2>
+                <h2 class="div-section-h2">Méthodes numérique</h2>
                 <div class="div-section-div">
-                    <a class="div-section-div-a" href="train_arriere_pour_supercar.php" title="Train arrière pour supercar">
-                        <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/trainArrierePourSupercar_mediumComp.webp" alt="Rendu en image" width="300" height="300">
-                            <figcaption class="div-section-div-a-figure-figcaption">
-                                <p class="div-section-div-a-figure-figcaption-p">Train arrière pour supercar</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                    <a class="div-section-div-a" href="train_avant_pour_supercar.php">
-                        <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/trainAvantPourSupercar_mediumComp.webp" alt="Rendu en image" width="300" height="300">
-                            <figcaption class="div-section-div-a-figure-figcaption">
-                                <p class="div-section-div-a-figure-figcaption-p">Train avant pour supercar</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                    <a class="div-section-div-a" href="moteur_v8_pneumatique.php">
-                        <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/v8pneumatique_mediumComp.webp" alt="Rendu en image" width="300" height="300">
-                            <figcaption class="div-section-div-a-figure-figcaption">
-                                <p class="div-section-div-a-figure-figcaption-p">Moteur v8 pneumatique</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </section>
-        </div>
-        <div class="div">
-            <section class="div-section">
-                <h2 class="div-section-h2">Mathématiques : mes travaux de recherches et cours</h2>
-                <div class="div-section-div">
-                    <a class="div-section-div-a" href="techniques_de_resolution_d_edo.php" title="Mes techniques de résolution numérique de système d\'EDO">
-                        <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/formulePrincipale_mediumComp.webp" alt="Rendu en image" width="300" height="300">
-                            <figcaption class="div-section-div-a-figure-figcaption">
-                                <p class="div-section-div-a-figure-figcaption-p">Mes techniques de résolution numérique de système d\'EDO</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </section>
-        </div>
-        <div class="div">
-            <section class="div-section">
-                <h2 class="div-section-h2">Schématiques : des schémas traitants de disciplines orientés sciences et techniques</h2>
-                <div class="div-section-div">
-                    <a class="div-section-div-a" href="le_cerveau_mecanique.php">
-                        <figure class="div-section-div-a-figure">
-                            <img class="div-section-div-a-figure-img" fetchpriority="high" src="img/schemaDuCerveauMecanique_mediumComp.webp" alt="Rendu en image" width="300" height="300">
-                            <figcaption class="div-section-div-a-figure-figcaption">
-                                <p class="div-section-div-a-figure-figcaption-p">Le cerveau mécanique</p>
-                            </figcaption>
-                        </figure>
-                    </a>
+                    <figure class="div-section-div-figure">
+                        <img class="div-section-div-figure-img" fetchpriority="high" src="#" alt="#" width="300" height="300">
+                        <figcaption class="div-section-div-figure-figcaption">
+                            <p class="div-section-div-figure-figcaption-p">Interpolation et approximation</p>
+                        </figcaption>
+                    </figure>
                 </div>
             </section>
         </div>';?>
         <?php include 'footer.php';?>
         <?php echo '
         <script>
-            function displayNav() {
-                let nav = document.getElementById("nav");
-                let navClass = nav.className;
-                if(navClass == "header-no_nav") {
-                    nav.className = "header-nav";
-                }
-                else {
-                    nav.className = "header-no_nav";
-                }
-            }
-            // window on load event
             window.onload = console.log("La page c\'est correctement chargée !");
         </script>
     </body>
